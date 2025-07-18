@@ -34,10 +34,10 @@ cd sql-SQL-Exploratory-Data-Analysis
 
 ### 3. Load the Database and Tables
 
-Open `schema.sql` in MySQL Workbench or run it via terminal:
+Open `00_init_database.sql` in MySQL Workbench or run it via terminal:
 
 ```bash
-mysql -u your_user -p --local-infile=1 < schema.sql
+mysql -u your_user -p --local-infile=1 < 00_init_database.sql
 ```
 
 This will:
