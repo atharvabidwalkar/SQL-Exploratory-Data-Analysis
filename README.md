@@ -46,12 +46,14 @@ This will:
 - Load the data from the CSV files
 
 ### 4. Run the Analysis Queries
-
-Open and execute sql files to explore:
-- Total sales by country or product category
-- Customer segments
-- Top-selling products
-- Sales trends by year
+| File Name                     | Description                                      |
+|------------------------------|--------------------------------------------------|
+| `01_database_exploration.sql`    | Count records, view samples                     |
+| `02_dimensions_explorations.sql` | Analyze customer and product dimensions         |
+| `03_date_range_explorations.sql` | Explore date validity and ordering timelines    |
+| `04_measures_exploration.sql`    | Stats on sales, prices, and quantities          |
+| `05_magnitude_explorations.sql`  | Aggregate sales by category and geography       |
+| `06_ranking_analysis.sql`        | Top customers and products by revenue           |
 
 ## Notes
 
