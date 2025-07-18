@@ -1,4 +1,4 @@
-# SQL Data Warehouse Analytics Project
+# SQL Exploratory Data Analysis Project
 
 This project demonstrates how to build and query a simple data analysis using MySQL. It involves importing CSV files into dimension and fact tables, followed by SQL-based business analysis.
 
